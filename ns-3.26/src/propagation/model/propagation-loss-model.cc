@@ -542,6 +542,100 @@ LogDistancePropagationLossModel::DoAssignStreams (int64_t stream)
 
 // ------------------------------------------------------------------------- //
 
+NS_OBJECT_ENSURE_REGISTERED (hw2PropModel);
+
+TypeId
+hw2PropModel::GetTypeId (void)
+{
+  static TypeId tid = TypeId ("ns3::hw2PropModel")
+    .SetParent<PropagationLossModel> ()
+    .SetGroupName ("Propagation")
+    .AddConstructor<hw2PropModel> ()
+    .AddAttribute ("Exponent",
+                   "The exponent of the Path Loss propagation model",
+                   DoubleValue (3.0),
+                   MakeDoubleAccessor (&hw2PropModel::m_exponent),
+                   MakeDoubleChecker<double> ())
+    .AddAttribute ("ReferenceDistance",
+                   "The distance at which the reference loss is calculated (m)",
+                   DoubleValue (1.0),
+                   MakeDoubleAccessor (&hw2PropModel::m_referenceDistance),
+                   MakeDoubleChecker<double> ())
+    .AddAttribute ("ReferenceLoss",
+                   "The reference loss at reference distance (dB). (Default is Friis at 1m with 5.15 GHz)",
+                   DoubleValue (46.6777),
+                   MakeDoubleAccessor (&hw2PropModel::m_referenceLoss),
+                   MakeDoubleChecker<double> ())
+    .AddAttribute ("Variable", "The random variable used to pick a loss everytime CalcRxPower is invoked.",
+                   StringValue ("ns3::NormalRandomVariable[Mean=0|Variance=1]"),
+                   MakePointerAccessor (&hw2PropModel::m_variable),
+                   MakePointerChecker<RandomVariableStream> ())
+  ;
+  return tid;
+
+}
+
+
+hw2PropModel::hw2PropModel ()
+{
+}
+
+void
+hw2PropModel::SetPathLossExponent (double n)
+{
+  m_exponent = n;
+}
+void
+hw2PropModel::SetReference (double referenceDistance, double referenceLoss)
+{
+  m_referenceDistance = referenceDistance;
+  m_referenceLoss = referenceLoss;
+}
+double
+hw2PropModel::GetPathLossExponent (void) const
+{
+  return m_exponent;
+}
+
+double
+hw2PropModel::DoCalcRxPower (double txPowerDbm,
+                                                Ptr<MobilityModel> a,
+                                                Ptr<MobilityModel> b) const
+{
+  double distance = a->GetDistanceFrom (b);
+  if (distance <= m_referenceDistance)
+    {
+      return txPowerDbm + m_variable->GetInteger();
+    }
+  /**
+   * The formula is:
+   * rx = 10 * log (Pr0(tx)) - n * 10 * log (d/d0)
+   *
+   * Pr0: rx power at reference distance d0 (W)
+   * d0: reference distance: 1.0 (m)
+   * d: distance (m)
+   * tx: tx power (dB)
+   * rx: dB
+   *
+   * Which, in our case is:
+   *
+   * rx = rx0(tx) - 10 * n * log (d/d0)
+   */
+  double pathLossDb = 10 * m_exponent * std::log10 (distance / m_referenceDistance);
+  double rxc = -m_referenceLoss - pathLossDb;
+  NS_LOG_DEBUG ("distance="<<distance<<"m, reference-attenuation="<< -m_referenceLoss<<"dB, "<<
+                "attenuation coefficient="<<rxc<<"db");
+  return txPowerDbm + rxc;
+}
+
+int64_t
+hw2PropModel::DoAssignStreams (int64_t stream)
+{
+  return 0;
+}
+
+// ------------------------------------------------------------------------- //
+
 NS_OBJECT_ENSURE_REGISTERED (ThreeLogDistancePropagationLossModel);
 
 TypeId
