@@ -46,6 +46,11 @@
   }, 
   {
     "directory": "/home/ugrads/k/kwo227/ns3/ns-3.26/build", 
+    "command": "/usr/bin/g++ -O0 -ggdb -g3 -Wall -Werror -std=c++11 -Wno-error=deprecated-declarations -fstrict-aliasing -Wstrict-aliasing -fPIC -pthread -I. -I.. -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 ../src/wimax/helper/wimax-helper.cc -c -o /home/ugrads/k/kwo227/ns3/ns-3.26/build/src/wimax/helper/wimax-helper.cc.1.o", 
+    "file": "../src/wimax/helper/wimax-helper.cc"
+  }, 
+  {
+    "directory": "/home/ugrads/k/kwo227/ns3/ns-3.26/build", 
     "command": "/usr/bin/g++ -O0 -ggdb -g3 -Wall -Werror -std=c++11 -Wno-error=deprecated-declarations -fstrict-aliasing -Wstrict-aliasing -fPIC -pthread -I. -I.. -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 ../src/buildings/model/building-list.cc -c -o /home/ugrads/k/kwo227/ns3/ns-3.26/build/src/buildings/model/building-list.cc.1.o", 
     "file": "../src/buildings/model/building-list.cc"
   }, 
@@ -78,11 +83,6 @@
     "directory": "/home/ugrads/k/kwo227/ns3/ns-3.26/build", 
     "command": "/usr/bin/g++ -O0 -ggdb -g3 -Wall -Werror -std=c++11 -Wno-error=deprecated-declarations -fstrict-aliasing -Wstrict-aliasing -pthread -I. -I.. -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 ../src/fd-net-device/examples/fd-emu-udp-echo.cc -c -o /home/ugrads/k/kwo227/ns3/ns-3.26/build/src/fd-net-device/examples/fd-emu-udp-echo.cc.6.o", 
     "file": "../src/fd-net-device/examples/fd-emu-udp-echo.cc"
-  }, 
-  {
-    "directory": "/home/ugrads/k/kwo227/ns3/ns-3.26/build", 
-    "command": "/usr/bin/g++ -O0 -ggdb -g3 -Wall -Werror -std=c++11 -Wno-error=deprecated-declarations -fstrict-aliasing -Wstrict-aliasing -fPIC -pthread -I. -I.. -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 ../src/lte/model/lte-rrc-header.cc -c -o /home/ugrads/k/kwo227/ns3/ns-3.26/build/src/lte/model/lte-rrc-header.cc.1.o", 
-    "file": "../src/lte/model/lte-rrc-header.cc"
   }, 
   {
     "directory": "/home/ugrads/k/kwo227/ns3/ns-3.26/build", 
@@ -186,6 +186,11 @@
   }, 
   {
     "directory": "/home/ugrads/k/kwo227/ns3/ns-3.26/build", 
+    "command": "/usr/bin/g++ -O0 -ggdb -g3 -Wall -Werror -std=c++11 -Wno-error=deprecated-declarations -fstrict-aliasing -Wstrict-aliasing -pthread -I. -I.. -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 ../scratch/routing-experiment.cc -c -o /home/ugrads/k/kwo227/ns3/ns-3.26/build/scratch/routing-experiment.cc.12.o", 
+    "file": "../scratch/routing-experiment.cc"
+  }, 
+  {
+    "directory": "/home/ugrads/k/kwo227/ns3/ns-3.26/build", 
     "command": "/usr/bin/g++ -O0 -ggdb -g3 -Wall -Werror -std=c++11 -Wno-error=deprecated-declarations -fstrict-aliasing -Wstrict-aliasing -fPIC -pthread -I. -I.. -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 ../src/buildings/model/buildings-propagation-loss-model.cc -c -o /home/ugrads/k/kwo227/ns3/ns-3.26/build/src/buildings/model/buildings-propagation-loss-model.cc.1.o", 
     "file": "../src/buildings/model/buildings-propagation-loss-model.cc"
   }, 
@@ -198,11 +203,6 @@
     "directory": "/home/ugrads/k/kwo227/ns3/ns-3.26/build", 
     "command": "/usr/bin/g++ -O0 -ggdb -g3 -Wall -Werror -std=c++11 -Wno-error=deprecated-declarations -fstrict-aliasing -Wstrict-aliasing -fPIC -fno-strict-aliasing -fexceptions -fstack-protector-strong -m64 -mtune=generic -fPIC -fwrapv -fexceptions -fstack-protector-strong -m64 -mtune=generic -fPIC -fwrapv -fvisibility=hidden -Wno-array-bounds -pthread -I. -I.. -Isrc/wimax/bindings -I../src/wimax/bindings -I/usr/include/python2.7 -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DNS_DEPRECATED= -DNS3_DEPRECATED_H -DHAVE_PYEXT=1 -D_GNU_SOURCE -DNDEBUG -D_GNU_SOURCE src/wimax/bindings/ns3module.cc -c -o /home/ugrads/k/kwo227/ns3/ns-3.26/build/src/wimax/bindings/ns3module.cc.7.o", 
     "file": "src/wimax/bindings/ns3module.cc"
-  }, 
-  {
-    "directory": "/home/ugrads/k/kwo227/ns3/ns-3.26/build", 
-    "command": "/usr/bin/g++ -O0 -ggdb -g3 -Wall -Werror -std=c++11 -Wno-error=deprecated-declarations -fstrict-aliasing -Wstrict-aliasing -I../src/lr-wpan -fPIC -pthread -I. -I.. -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 '-DNS_TEST_SOURCEDIR=\"src/lr-wpan/test\"' ../src/lr-wpan/test/lr-wpan-collision-test.cc -c -o /home/ugrads/k/kwo227/ns3/ns-3.26/build/src/lr-wpan/test/lr-wpan-collision-test.cc.3.o", 
-    "file": "../src/lr-wpan/test/lr-wpan-collision-test.cc"
   }, 
   {
     "directory": "/home/ugrads/k/kwo227/ns3/ns-3.26/build", 
@@ -238,11 +238,6 @@
     "directory": "/home/ugrads/k/kwo227/ns3/ns-3.26/build", 
     "command": "/usr/bin/g++ -O0 -ggdb -g3 -Wall -Werror -std=c++11 -Wno-error=deprecated-declarations -fstrict-aliasing -Wstrict-aliasing -I../src/lte -fPIC -pthread -I. -I.. -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 '-DNS_TEST_SOURCEDIR=\"src/lte/test\"' ../src/lte/test/test-lte-handover-delay.cc -c -o /home/ugrads/k/kwo227/ns3/ns-3.26/build/src/lte/test/test-lte-handover-delay.cc.3.o", 
     "file": "../src/lte/test/test-lte-handover-delay.cc"
-  }, 
-  {
-    "directory": "/home/ugrads/k/kwo227/ns3/ns-3.26/build", 
-    "command": "/usr/bin/g++ -O0 -ggdb -g3 -Wall -Werror -std=c++11 -Wno-error=deprecated-declarations -fstrict-aliasing -Wstrict-aliasing -pthread -I. -I.. -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 ../src/wimax/examples/wimax-multicast.cc -c -o /home/ugrads/k/kwo227/ns3/ns-3.26/build/src/wimax/examples/wimax-multicast.cc.2.o", 
-    "file": "../src/wimax/examples/wimax-multicast.cc"
   }, 
   {
     "directory": "/home/ugrads/k/kwo227/ns3/ns-3.26/build", 
@@ -336,8 +331,18 @@
   }, 
   {
     "directory": "/home/ugrads/k/kwo227/ns3/ns-3.26/build", 
-    "command": "/usr/bin/g++ -O0 -ggdb -g3 -Wall -Werror -std=c++11 -Wno-error=deprecated-declarations -fstrict-aliasing -Wstrict-aliasing -fPIC -pthread -I. -I.. -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 ../src/internet/model/icmpv6-l4-protocol.cc -c -o /home/ugrads/k/kwo227/ns3/ns-3.26/build/src/internet/model/icmpv6-l4-protocol.cc.1.o", 
-    "file": "../src/internet/model/icmpv6-l4-protocol.cc"
+    "command": "/usr/bin/g++ -O0 -ggdb -g3 -Wall -Werror -std=c++11 -Wno-error=deprecated-declarations -fstrict-aliasing -Wstrict-aliasing -fPIC -pthread -I. -I.. -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 ../src/core/model/names.cc -c -o /home/ugrads/k/kwo227/ns3/ns-3.26/build/src/core/model/names.cc.1.o", 
+    "file": "../src/core/model/names.cc"
+  }, 
+  {
+    "directory": "/home/ugrads/k/kwo227/ns3/ns-3.26/build", 
+    "command": "/usr/bin/g++ -O0 -ggdb -g3 -Wall -Werror -std=c++11 -Wno-error=deprecated-declarations -fstrict-aliasing -Wstrict-aliasing -fPIC -pthread -I. -I.. -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 ../src/energy/model/simple-device-energy-model.cc -c -o /home/ugrads/k/kwo227/ns3/ns-3.26/build/src/energy/model/simple-device-energy-model.cc.1.o", 
+    "file": "../src/energy/model/simple-device-energy-model.cc"
+  }, 
+  {
+    "directory": "/home/ugrads/k/kwo227/ns3/ns-3.26/build", 
+    "command": "/usr/bin/g++ -O0 -ggdb -g3 -Wall -Werror -std=c++11 -Wno-error=deprecated-declarations -fstrict-aliasing -Wstrict-aliasing -pthread -I. -I.. -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 ../scratch/hw2.cc -c -o /home/ugrads/k/kwo227/ns3/ns-3.26/build/scratch/hw2.cc.5.o", 
+    "file": "../scratch/hw2.cc"
   }, 
   {
     "directory": "/home/ugrads/k/kwo227/ns3/ns-3.26/build", 
@@ -351,8 +356,8 @@
   }, 
   {
     "directory": "/home/ugrads/k/kwo227/ns3/ns-3.26/build", 
-    "command": "/usr/bin/g++ -O0 -ggdb -g3 -Wall -Werror -std=c++11 -Wno-error=deprecated-declarations -fstrict-aliasing -Wstrict-aliasing -I../src/test -fPIC -pthread -I. -I.. -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 '-DNS_TEST_SOURCEDIR=\"src/test/traced\"' ../src/test/ns3wifi/wifi-interference-test-suite.cc -c -o /home/ugrads/k/kwo227/ns3/ns-3.26/build/src/test/ns3wifi/wifi-interference-test-suite.cc.4.o", 
-    "file": "../src/test/ns3wifi/wifi-interference-test-suite.cc"
+    "command": "/usr/bin/g++ -O0 -ggdb -g3 -Wall -Werror -std=c++11 -Wno-error=deprecated-declarations -fstrict-aliasing -Wstrict-aliasing -fPIC -pthread -I. -I.. -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 ../src/buildings/model/hybrid-buildings-propagation-loss-model.cc -c -o /home/ugrads/k/kwo227/ns3/ns-3.26/build/src/buildings/model/hybrid-buildings-propagation-loss-model.cc.1.o", 
+    "file": "../src/buildings/model/hybrid-buildings-propagation-loss-model.cc"
   }, 
   {
     "directory": "/home/ugrads/k/kwo227/ns3/ns-3.26/build", 
@@ -371,18 +376,18 @@
   }, 
   {
     "directory": "/home/ugrads/k/kwo227/ns3/ns-3.26/build", 
-    "command": "/usr/bin/g++ -O0 -ggdb -g3 -Wall -Werror -std=c++11 -Wno-error=deprecated-declarations -fstrict-aliasing -Wstrict-aliasing -fPIC -pthread -I. -I.. -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 ../src/internet/model/tcp-option-rfc793.cc -c -o /home/ugrads/k/kwo227/ns3/ns-3.26/build/src/internet/model/tcp-option-rfc793.cc.1.o", 
-    "file": "../src/internet/model/tcp-option-rfc793.cc"
-  }, 
-  {
-    "directory": "/home/ugrads/k/kwo227/ns3/ns-3.26/build", 
     "command": "/usr/bin/g++ -O0 -ggdb -g3 -Wall -Werror -std=c++11 -Wno-error=deprecated-declarations -fstrict-aliasing -Wstrict-aliasing -fPIC -pthread -I. -I.. -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 ../src/lte/model/cqa-ff-mac-scheduler.cc -c -o /home/ugrads/k/kwo227/ns3/ns-3.26/build/src/lte/model/cqa-ff-mac-scheduler.cc.1.o", 
     "file": "../src/lte/model/cqa-ff-mac-scheduler.cc"
   }, 
   {
     "directory": "/home/ugrads/k/kwo227/ns3/ns-3.26/build", 
-    "command": "/usr/bin/g++ -O0 -ggdb -g3 -Wall -Werror -std=c++11 -Wno-error=deprecated-declarations -fstrict-aliasing -Wstrict-aliasing -I../src/lte -fPIC -pthread -I. -I.. -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 '-DNS_TEST_SOURCEDIR=\"src/lte/test\"' ../src/lte/test/lte-test-pathloss-model.cc -c -o /home/ugrads/k/kwo227/ns3/ns-3.26/build/src/lte/test/lte-test-pathloss-model.cc.3.o", 
-    "file": "../src/lte/test/lte-test-pathloss-model.cc"
+    "command": "/usr/bin/g++ -O0 -ggdb -g3 -Wall -Werror -std=c++11 -Wno-error=deprecated-declarations -fstrict-aliasing -Wstrict-aliasing -fPIC -pthread -I. -I.. -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 ../src/core/model/make-event.cc -c -o /home/ugrads/k/kwo227/ns3/ns-3.26/build/src/core/model/make-event.cc.1.o", 
+    "file": "../src/core/model/make-event.cc"
+  }, 
+  {
+    "directory": "/home/ugrads/k/kwo227/ns3/ns-3.26/build", 
+    "command": "/usr/bin/g++ -O0 -ggdb -g3 -Wall -Werror -std=c++11 -Wno-error=deprecated-declarations -fstrict-aliasing -Wstrict-aliasing -fPIC -pthread -I. -I.. -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 ../src/internet/model/ipv6-queue-disc-item.cc -c -o /home/ugrads/k/kwo227/ns3/ns-3.26/build/src/internet/model/ipv6-queue-disc-item.cc.1.o", 
+    "file": "../src/internet/model/ipv6-queue-disc-item.cc"
   }, 
   {
     "directory": "/home/ugrads/k/kwo227/ns3/ns-3.26/build", 
@@ -393,6 +398,11 @@
     "directory": "/home/ugrads/k/kwo227/ns3/ns-3.26/build", 
     "command": "/usr/bin/g++ -O0 -ggdb -g3 -Wall -Werror -std=c++11 -Wno-error=deprecated-declarations -fstrict-aliasing -Wstrict-aliasing -fPIC -pthread -Isrc/propagation -I../src/propagation -I. -I.. -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 ../src/propagation/model/kun-2600-mhz-propagation-loss-model.cc -c -o /home/ugrads/k/kwo227/ns3/ns-3.26/build/src/propagation/model/kun-2600-mhz-propagation-loss-model.cc.1.o", 
     "file": "../src/propagation/model/kun-2600-mhz-propagation-loss-model.cc"
+  }, 
+  {
+    "directory": "/home/ugrads/k/kwo227/ns3/ns-3.26/build", 
+    "command": "/usr/bin/g++ -O0 -ggdb -g3 -Wall -Werror -std=c++11 -Wno-error=deprecated-declarations -fstrict-aliasing -Wstrict-aliasing -I../src/internet -fPIC -pthread -I. -I.. -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 '-DNS_TEST_SOURCEDIR=\"src/internet/test\"' ../src/internet/test/tcp-illinois-test.cc -c -o /home/ugrads/k/kwo227/ns3/ns-3.26/build/src/internet/test/tcp-illinois-test.cc.3.o", 
+    "file": "../src/internet/test/tcp-illinois-test.cc"
   }, 
   {
     "directory": "/home/ugrads/k/kwo227/ns3/ns-3.26/build", 
@@ -411,6 +421,11 @@
   }, 
   {
     "directory": "/home/ugrads/k/kwo227/ns3/ns-3.26/build", 
+    "command": "/usr/bin/g++ -O0 -ggdb -g3 -Wall -Werror -std=c++11 -Wno-error=deprecated-declarations -fstrict-aliasing -Wstrict-aliasing -I../src/internet -fPIC -pthread -I. -I.. -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 '-DNS_TEST_SOURCEDIR=\"src/internet/test\"' ../src/internet/test/tcp-vegas-test.cc -c -o /home/ugrads/k/kwo227/ns3/ns-3.26/build/src/internet/test/tcp-vegas-test.cc.3.o", 
+    "file": "../src/internet/test/tcp-vegas-test.cc"
+  }, 
+  {
+    "directory": "/home/ugrads/k/kwo227/ns3/ns-3.26/build", 
     "command": "/usr/bin/g++ -O0 -ggdb -g3 -Wall -Werror -std=c++11 -Wno-error=deprecated-declarations -fstrict-aliasing -Wstrict-aliasing -I../src/internet -fPIC -pthread -I. -I.. -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 '-DNS_TEST_SOURCEDIR=\"src/internet/test\"' ../src/internet/test/ipv4-forwarding-test.cc -c -o /home/ugrads/k/kwo227/ns3/ns-3.26/build/src/internet/test/ipv4-forwarding-test.cc.3.o", 
     "file": "../src/internet/test/ipv4-forwarding-test.cc"
   }, 
@@ -426,8 +441,8 @@
   }, 
   {
     "directory": "/home/ugrads/k/kwo227/ns3/ns-3.26/build", 
-    "command": "/usr/bin/g++ -O0 -ggdb -g3 -Wall -Werror -std=c++11 -Wno-error=deprecated-declarations -fstrict-aliasing -Wstrict-aliasing -pthread -I. -I.. -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 ../src/lte/examples/lena-profiling.cc -c -o /home/ugrads/k/kwo227/ns3/ns-3.26/build/src/lte/examples/lena-profiling.cc.6.o", 
-    "file": "../src/lte/examples/lena-profiling.cc"
+    "command": "/usr/bin/g++ -O0 -ggdb -g3 -Wall -Werror -std=c++11 -Wno-error=deprecated-declarations -fstrict-aliasing -Wstrict-aliasing -fPIC -pthread -I. -I.. -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 ../src/internet/model/udp-socket-impl.cc -c -o /home/ugrads/k/kwo227/ns3/ns-3.26/build/src/internet/model/udp-socket-impl.cc.1.o", 
+    "file": "../src/internet/model/udp-socket-impl.cc"
   }, 
   {
     "directory": "/home/ugrads/k/kwo227/ns3/ns-3.26/build", 
@@ -463,11 +478,6 @@
     "directory": "/home/ugrads/k/kwo227/ns3/ns-3.26/build", 
     "command": "/usr/bin/g++ -O0 -ggdb -g3 -Wall -Werror -std=c++11 -Wno-error=deprecated-declarations -fstrict-aliasing -Wstrict-aliasing -fPIC -pthread -I. -I.. -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 ../src/spectrum/helper/spectrum-helper.cc -c -o /home/ugrads/k/kwo227/ns3/ns-3.26/build/src/spectrum/helper/spectrum-helper.cc.1.o", 
     "file": "../src/spectrum/helper/spectrum-helper.cc"
-  }, 
-  {
-    "directory": "/home/ugrads/k/kwo227/ns3/ns-3.26/build", 
-    "command": "/usr/bin/g++ -O0 -ggdb -g3 -Wall -Werror -std=c++11 -Wno-error=deprecated-declarations -fstrict-aliasing -Wstrict-aliasing -I../src/spectrum -fPIC -pthread -I. -I.. -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 '-DNS_TEST_SOURCEDIR=\"src/spectrum/test\"' ../src/spectrum/test/spectrum-ideal-phy-test.cc -c -o /home/ugrads/k/kwo227/ns3/ns-3.26/build/src/spectrum/test/spectrum-ideal-phy-test.cc.3.o", 
-    "file": "../src/spectrum/test/spectrum-ideal-phy-test.cc"
   }, 
   {
     "directory": "/home/ugrads/k/kwo227/ns3/ns-3.26/build", 
@@ -533,6 +543,11 @@
     "directory": "/home/ugrads/k/kwo227/ns3/ns-3.26/build", 
     "command": "/usr/bin/g++ -O0 -ggdb -g3 -Wall -Werror -std=c++11 -Wno-error=deprecated-declarations -fstrict-aliasing -Wstrict-aliasing -fPIC -fno-strict-aliasing -fexceptions -fstack-protector-strong -m64 -mtune=generic -fPIC -fwrapv -fexceptions -fstack-protector-strong -m64 -mtune=generic -fPIC -fwrapv -fvisibility=hidden -Wno-array-bounds -pthread -I. -I.. -Isrc/config-store/bindings -I../src/config-store/bindings -I/usr/include/python2.7 -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DNS_DEPRECATED= -DNS3_DEPRECATED_H -DHAVE_PYEXT=1 -D_GNU_SOURCE -DNDEBUG -D_GNU_SOURCE src/config-store/bindings/ns3module.cc -c -o /home/ugrads/k/kwo227/ns3/ns-3.26/build/src/config-store/bindings/ns3module.cc.5.o", 
     "file": "src/config-store/bindings/ns3module.cc"
+  }, 
+  {
+    "directory": "/home/ugrads/k/kwo227/ns3/ns-3.26/build", 
+    "command": "/usr/bin/g++ -O0 -ggdb -g3 -Wall -Werror -std=c++11 -Wno-error=deprecated-declarations -fstrict-aliasing -Wstrict-aliasing -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 ../src/fd-net-device/helper/tap-device-creator.cc -c -o /home/ugrads/k/kwo227/ns3/ns-3.26/build/src/fd-net-device/helper/tap-device-creator.cc.4.o", 
+    "file": "../src/fd-net-device/helper/tap-device-creator.cc"
   }, 
   {
     "directory": "/home/ugrads/k/kwo227/ns3/ns-3.26/build", 
@@ -608,11 +623,6 @@
     "directory": "/home/ugrads/k/kwo227/ns3/ns-3.26/build", 
     "command": "/usr/bin/g++ -O0 -ggdb -g3 -Wall -Werror -std=c++11 -Wno-error=deprecated-declarations -fstrict-aliasing -Wstrict-aliasing -I../src/propagation -fPIC -pthread -I. -I.. -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 '-DNS_TEST_SOURCEDIR=\"src/propagation/test\"' ../src/propagation/test/itu-r-1411-los-test-suite.cc -c -o /home/ugrads/k/kwo227/ns3/ns-3.26/build/src/propagation/test/itu-r-1411-los-test-suite.cc.3.o", 
     "file": "../src/propagation/test/itu-r-1411-los-test-suite.cc"
-  }, 
-  {
-    "directory": "/home/ugrads/k/kwo227/ns3/ns-3.26/build", 
-    "command": "/usr/bin/g++ -O0 -ggdb -g3 -Wall -Werror -std=c++11 -Wno-error=deprecated-declarations -fstrict-aliasing -Wstrict-aliasing -pthread -I. -I.. -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 ../scratch/random-propagation-loss-distance-expt.cc -c -o /home/ugrads/k/kwo227/ns3/ns-3.26/build/scratch/random-propagation-loss-distance-expt.cc.3.o", 
-    "file": "../scratch/random-propagation-loss-distance-expt.cc"
   }, 
   {
     "directory": "/home/ugrads/k/kwo227/ns3/ns-3.26/build", 
@@ -756,18 +766,23 @@
   }, 
   {
     "directory": "/home/ugrads/k/kwo227/ns3/ns-3.26/build", 
-    "command": "/usr/bin/g++ -O0 -ggdb -g3 -Wall -Werror -std=c++11 -Wno-error=deprecated-declarations -fstrict-aliasing -Wstrict-aliasing -fPIC -pthread -I. -I.. -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 ../src/internet/model/ipv6-queue-disc-item.cc -c -o /home/ugrads/k/kwo227/ns3/ns-3.26/build/src/internet/model/ipv6-queue-disc-item.cc.1.o", 
-    "file": "../src/internet/model/ipv6-queue-disc-item.cc"
+    "command": "/usr/bin/g++ -O0 -ggdb -g3 -Wall -Werror -std=c++11 -Wno-error=deprecated-declarations -fstrict-aliasing -Wstrict-aliasing -I../src/lte -fPIC -pthread -I. -I.. -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 '-DNS_TEST_SOURCEDIR=\"src/lte/test\"' ../src/lte/test/lte-test-pathloss-model.cc -c -o /home/ugrads/k/kwo227/ns3/ns-3.26/build/src/lte/test/lte-test-pathloss-model.cc.3.o", 
+    "file": "../src/lte/test/lte-test-pathloss-model.cc"
   }, 
   {
     "directory": "/home/ugrads/k/kwo227/ns3/ns-3.26/build", 
-    "command": "/usr/bin/g++ -O0 -ggdb -g3 -Wall -Werror -std=c++11 -Wno-error=deprecated-declarations -fstrict-aliasing -Wstrict-aliasing -fPIC -pthread -I. -I.. -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 ../src/internet/model/udp-socket-impl.cc -c -o /home/ugrads/k/kwo227/ns3/ns-3.26/build/src/internet/model/udp-socket-impl.cc.1.o", 
-    "file": "../src/internet/model/udp-socket-impl.cc"
+    "command": "/usr/bin/g++ -O0 -ggdb -g3 -Wall -Werror -std=c++11 -Wno-error=deprecated-declarations -fstrict-aliasing -Wstrict-aliasing -pthread -I. -I.. -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 ../src/lte/examples/lena-profiling.cc -c -o /home/ugrads/k/kwo227/ns3/ns-3.26/build/src/lte/examples/lena-profiling.cc.6.o", 
+    "file": "../src/lte/examples/lena-profiling.cc"
   }, 
   {
     "directory": "/home/ugrads/k/kwo227/ns3/ns-3.26/build", 
     "command": "/usr/bin/g++ -O0 -ggdb -g3 -Wall -Werror -std=c++11 -Wno-error=deprecated-declarations -fstrict-aliasing -Wstrict-aliasing -pthread -I. -I.. -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 ../src/propagation/examples/main-propagation-loss.cc -c -o /home/ugrads/k/kwo227/ns3/ns-3.26/build/src/propagation/examples/main-propagation-loss.cc.1.o", 
     "file": "../src/propagation/examples/main-propagation-loss.cc"
+  }, 
+  {
+    "directory": "/home/ugrads/k/kwo227/ns3/ns-3.26/build", 
+    "command": "/usr/bin/g++ -O0 -ggdb -g3 -Wall -Werror -std=c++11 -Wno-error=deprecated-declarations -fstrict-aliasing -Wstrict-aliasing -fPIC -fno-strict-aliasing -fexceptions -fstack-protector-strong -m64 -mtune=generic -fPIC -fwrapv -fexceptions -fstack-protector-strong -m64 -mtune=generic -fPIC -fwrapv -fvisibility=hidden -Wno-array-bounds -pthread -I. -I.. -Isrc/fd-net-device/bindings -I../src/fd-net-device/bindings -I/usr/include/python2.7 -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DNS_DEPRECATED= -DNS3_DEPRECATED_H -DHAVE_PYEXT=1 -D_GNU_SOURCE -DNDEBUG -D_GNU_SOURCE src/fd-net-device/bindings/ns3module.cc -c -o /home/ugrads/k/kwo227/ns3/ns-3.26/build/src/fd-net-device/bindings/ns3module.cc.7.o", 
+    "file": "src/fd-net-device/bindings/ns3module.cc"
   }, 
   {
     "directory": "/home/ugrads/k/kwo227/ns3/ns-3.26/build", 
@@ -801,8 +816,8 @@
   }, 
   {
     "directory": "/home/ugrads/k/kwo227/ns3/ns-3.26/build", 
-    "command": "/usr/bin/g++ -O0 -ggdb -g3 -Wall -Werror -std=c++11 -Wno-error=deprecated-declarations -fstrict-aliasing -Wstrict-aliasing -fPIC -pthread -I. -I.. -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 ../src/core/model/make-event.cc -c -o /home/ugrads/k/kwo227/ns3/ns-3.26/build/src/core/model/make-event.cc.1.o", 
-    "file": "../src/core/model/make-event.cc"
+    "command": "/usr/bin/g++ -O0 -ggdb -g3 -Wall -Werror -std=c++11 -Wno-error=deprecated-declarations -fstrict-aliasing -Wstrict-aliasing -pthread -I. -I.. -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 ../scratch/random-propagation-loss-distance-expt.cc -c -o /home/ugrads/k/kwo227/ns3/ns-3.26/build/scratch/random-propagation-loss-distance-expt.cc.3.o", 
+    "file": "../scratch/random-propagation-loss-distance-expt.cc"
   }, 
   {
     "directory": "/home/ugrads/k/kwo227/ns3/ns-3.26/build", 
@@ -811,8 +826,8 @@
   }, 
   {
     "directory": "/home/ugrads/k/kwo227/ns3/ns-3.26/build", 
-    "command": "/usr/bin/g++ -O0 -ggdb -g3 -Wall -Werror -std=c++11 -Wno-error=deprecated-declarations -fstrict-aliasing -Wstrict-aliasing -fPIC -pthread -I. -I.. -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 ../src/energy/model/simple-device-energy-model.cc -c -o /home/ugrads/k/kwo227/ns3/ns-3.26/build/src/energy/model/simple-device-energy-model.cc.1.o", 
-    "file": "../src/energy/model/simple-device-energy-model.cc"
+    "command": "/usr/bin/g++ -O0 -ggdb -g3 -Wall -Werror -std=c++11 -Wno-error=deprecated-declarations -fstrict-aliasing -Wstrict-aliasing -I../src/spectrum -fPIC -pthread -I. -I.. -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 '-DNS_TEST_SOURCEDIR=\"src/spectrum/test\"' ../src/spectrum/test/spectrum-ideal-phy-test.cc -c -o /home/ugrads/k/kwo227/ns3/ns-3.26/build/src/spectrum/test/spectrum-ideal-phy-test.cc.3.o", 
+    "file": "../src/spectrum/test/spectrum-ideal-phy-test.cc"
   }, 
   {
     "directory": "/home/ugrads/k/kwo227/ns3/ns-3.26/build", 
@@ -891,8 +906,8 @@
   }, 
   {
     "directory": "/home/ugrads/k/kwo227/ns3/ns-3.26/build", 
-    "command": "/usr/bin/g++ -O0 -ggdb -g3 -Wall -Werror -std=c++11 -Wno-error=deprecated-declarations -fstrict-aliasing -Wstrict-aliasing -I../src/internet -fPIC -pthread -I. -I.. -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 '-DNS_TEST_SOURCEDIR=\"src/internet/test\"' ../src/internet/test/tcp-vegas-test.cc -c -o /home/ugrads/k/kwo227/ns3/ns-3.26/build/src/internet/test/tcp-vegas-test.cc.3.o", 
-    "file": "../src/internet/test/tcp-vegas-test.cc"
+    "command": "/usr/bin/g++ -O0 -ggdb -g3 -Wall -Werror -std=c++11 -Wno-error=deprecated-declarations -fstrict-aliasing -Wstrict-aliasing -fPIC -pthread -I. -I.. -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 ../src/internet/model/tcp-option-rfc793.cc -c -o /home/ugrads/k/kwo227/ns3/ns-3.26/build/src/internet/model/tcp-option-rfc793.cc.1.o", 
+    "file": "../src/internet/model/tcp-option-rfc793.cc"
   }, 
   {
     "directory": "/home/ugrads/k/kwo227/ns3/ns-3.26/build", 
@@ -921,11 +936,6 @@
   }, 
   {
     "directory": "/home/ugrads/k/kwo227/ns3/ns-3.26/build", 
-    "command": "/usr/bin/g++ -O0 -ggdb -g3 -Wall -Werror -std=c++11 -Wno-error=deprecated-declarations -fstrict-aliasing -Wstrict-aliasing -pthread -I. -I.. -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 ../src/spectrum/examples/tv-trans-regional-example.cc -c -o /home/ugrads/k/kwo227/ns3/ns-3.26/build/src/spectrum/examples/tv-trans-regional-example.cc.5.o", 
-    "file": "../src/spectrum/examples/tv-trans-regional-example.cc"
-  }, 
-  {
-    "directory": "/home/ugrads/k/kwo227/ns3/ns-3.26/build", 
     "command": "/usr/bin/g++ -O0 -ggdb -g3 -Wall -Werror -std=c++11 -Wno-error=deprecated-declarations -fstrict-aliasing -Wstrict-aliasing -pthread -I. -I.. -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 ../scratch/second.cc -c -o /home/ugrads/k/kwo227/ns3/ns-3.26/build/scratch/second.cc.10.o", 
     "file": "../scratch/second.cc"
   }, 
@@ -936,8 +946,8 @@
   }, 
   {
     "directory": "/home/ugrads/k/kwo227/ns3/ns-3.26/build", 
-    "command": "/usr/bin/g++ -O0 -ggdb -g3 -Wall -Werror -std=c++11 -Wno-error=deprecated-declarations -fstrict-aliasing -Wstrict-aliasing -I../src/internet -fPIC -pthread -I. -I.. -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 '-DNS_TEST_SOURCEDIR=\"src/internet/test\"' ../src/internet/test/tcp-illinois-test.cc -c -o /home/ugrads/k/kwo227/ns3/ns-3.26/build/src/internet/test/tcp-illinois-test.cc.3.o", 
-    "file": "../src/internet/test/tcp-illinois-test.cc"
+    "command": "/usr/bin/g++ -O0 -ggdb -g3 -Wall -Werror -std=c++11 -Wno-error=deprecated-declarations -fstrict-aliasing -Wstrict-aliasing -pthread -I. -I.. -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 ../src/wimax/examples/wimax-multicast.cc -c -o /home/ugrads/k/kwo227/ns3/ns-3.26/build/src/wimax/examples/wimax-multicast.cc.2.o", 
+    "file": "../src/wimax/examples/wimax-multicast.cc"
   }, 
   {
     "directory": "/home/ugrads/k/kwo227/ns3/ns-3.26/build", 
@@ -951,28 +961,23 @@
   }, 
   {
     "directory": "/home/ugrads/k/kwo227/ns3/ns-3.26/build", 
-    "command": "/usr/bin/g++ -O0 -ggdb -g3 -Wall -Werror -std=c++11 -Wno-error=deprecated-declarations -fstrict-aliasing -Wstrict-aliasing -pthread -I. -I.. -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 ../src/core/examples/sample-random-variable-stream.cc -c -o /home/ugrads/k/kwo227/ns3/ns-3.26/build/src/core/examples/sample-random-variable-stream.cc.7.o", 
-    "file": "../src/core/examples/sample-random-variable-stream.cc"
-  }, 
-  {
-    "directory": "/home/ugrads/k/kwo227/ns3/ns-3.26/build", 
     "command": "/usr/bin/g++ -O0 -ggdb -g3 -Wall -Werror -std=c++11 -Wno-error=deprecated-declarations -fstrict-aliasing -Wstrict-aliasing -fPIC -fno-strict-aliasing -fexceptions -fstack-protector-strong -m64 -mtune=generic -fPIC -fwrapv -fexceptions -fstack-protector-strong -m64 -mtune=generic -fPIC -fwrapv -fvisibility=hidden -Wno-array-bounds -pthread -I. -I.. -Isrc/internet/bindings -I../src/internet/bindings -I/usr/include/python2.7 -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DNS_DEPRECATED= -DNS3_DEPRECATED_H -DHAVE_PYEXT=1 -D_GNU_SOURCE -DNDEBUG -D_GNU_SOURCE src/internet/bindings/ns3module.cc -c -o /home/ugrads/k/kwo227/ns3/ns-3.26/build/src/internet/bindings/ns3module.cc.8.o", 
     "file": "src/internet/bindings/ns3module.cc"
   }, 
   {
     "directory": "/home/ugrads/k/kwo227/ns3/ns-3.26/build", 
-    "command": "/usr/bin/g++ -O0 -ggdb -g3 -Wall -Werror -std=c++11 -Wno-error=deprecated-declarations -fstrict-aliasing -Wstrict-aliasing -fPIC -pthread -I. -I.. -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 ../src/core/model/names.cc -c -o /home/ugrads/k/kwo227/ns3/ns-3.26/build/src/core/model/names.cc.1.o", 
-    "file": "../src/core/model/names.cc"
+    "command": "/usr/bin/g++ -O0 -ggdb -g3 -Wall -Werror -std=c++11 -Wno-error=deprecated-declarations -fstrict-aliasing -Wstrict-aliasing -fPIC -pthread -I. -I.. -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 ../src/internet/model/icmpv6-l4-protocol.cc -c -o /home/ugrads/k/kwo227/ns3/ns-3.26/build/src/internet/model/icmpv6-l4-protocol.cc.1.o", 
+    "file": "../src/internet/model/icmpv6-l4-protocol.cc"
   }, 
   {
     "directory": "/home/ugrads/k/kwo227/ns3/ns-3.26/build", 
-    "command": "/usr/bin/g++ -O0 -ggdb -g3 -Wall -Werror -std=c++11 -Wno-error=deprecated-declarations -fstrict-aliasing -Wstrict-aliasing -fPIC -fno-strict-aliasing -fexceptions -fstack-protector-strong -m64 -mtune=generic -fPIC -fwrapv -fexceptions -fstack-protector-strong -m64 -mtune=generic -fPIC -fwrapv -fvisibility=hidden -Wno-array-bounds -pthread -I. -I.. -Isrc/fd-net-device/bindings -I../src/fd-net-device/bindings -I/usr/include/python2.7 -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 -DNS_DEPRECATED= -DNS3_DEPRECATED_H -DHAVE_PYEXT=1 -D_GNU_SOURCE -DNDEBUG -D_GNU_SOURCE src/fd-net-device/bindings/ns3module.cc -c -o /home/ugrads/k/kwo227/ns3/ns-3.26/build/src/fd-net-device/bindings/ns3module.cc.7.o", 
-    "file": "src/fd-net-device/bindings/ns3module.cc"
+    "command": "/usr/bin/g++ -O0 -ggdb -g3 -Wall -Werror -std=c++11 -Wno-error=deprecated-declarations -fstrict-aliasing -Wstrict-aliasing -I../src/lr-wpan -fPIC -pthread -I. -I.. -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 '-DNS_TEST_SOURCEDIR=\"src/lr-wpan/test\"' ../src/lr-wpan/test/lr-wpan-collision-test.cc -c -o /home/ugrads/k/kwo227/ns3/ns-3.26/build/src/lr-wpan/test/lr-wpan-collision-test.cc.3.o", 
+    "file": "../src/lr-wpan/test/lr-wpan-collision-test.cc"
   }, 
   {
     "directory": "/home/ugrads/k/kwo227/ns3/ns-3.26/build", 
-    "command": "/usr/bin/g++ -O0 -ggdb -g3 -Wall -Werror -std=c++11 -Wno-error=deprecated-declarations -fstrict-aliasing -Wstrict-aliasing -fPIC -pthread -I. -I.. -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 ../src/buildings/model/hybrid-buildings-propagation-loss-model.cc -c -o /home/ugrads/k/kwo227/ns3/ns-3.26/build/src/buildings/model/hybrid-buildings-propagation-loss-model.cc.1.o", 
-    "file": "../src/buildings/model/hybrid-buildings-propagation-loss-model.cc"
+    "command": "/usr/bin/g++ -O0 -ggdb -g3 -Wall -Werror -std=c++11 -Wno-error=deprecated-declarations -fstrict-aliasing -Wstrict-aliasing -I../src/test -fPIC -pthread -I. -I.. -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 '-DNS_TEST_SOURCEDIR=\"src/test/traced\"' ../src/test/ns3wifi/wifi-interference-test-suite.cc -c -o /home/ugrads/k/kwo227/ns3/ns-3.26/build/src/test/ns3wifi/wifi-interference-test-suite.cc.4.o", 
+    "file": "../src/test/ns3wifi/wifi-interference-test-suite.cc"
   }, 
   {
     "directory": "/home/ugrads/k/kwo227/ns3/ns-3.26/build", 
@@ -986,8 +991,8 @@
   }, 
   {
     "directory": "/home/ugrads/k/kwo227/ns3/ns-3.26/build", 
-    "command": "/usr/bin/g++ -O0 -ggdb -g3 -Wall -Werror -std=c++11 -Wno-error=deprecated-declarations -fstrict-aliasing -Wstrict-aliasing -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 ../src/fd-net-device/helper/tap-device-creator.cc -c -o /home/ugrads/k/kwo227/ns3/ns-3.26/build/src/fd-net-device/helper/tap-device-creator.cc.4.o", 
-    "file": "../src/fd-net-device/helper/tap-device-creator.cc"
+    "command": "/usr/bin/g++ -O0 -ggdb -g3 -Wall -Werror -std=c++11 -Wno-error=deprecated-declarations -fstrict-aliasing -Wstrict-aliasing -pthread -I. -I.. -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 ../src/core/examples/sample-random-variable-stream.cc -c -o /home/ugrads/k/kwo227/ns3/ns-3.26/build/src/core/examples/sample-random-variable-stream.cc.7.o", 
+    "file": "../src/core/examples/sample-random-variable-stream.cc"
   }, 
   {
     "directory": "/home/ugrads/k/kwo227/ns3/ns-3.26/build", 
@@ -1006,8 +1011,8 @@
   }, 
   {
     "directory": "/home/ugrads/k/kwo227/ns3/ns-3.26/build", 
-    "command": "/usr/bin/g++ -O0 -ggdb -g3 -Wall -Werror -std=c++11 -Wno-error=deprecated-declarations -fstrict-aliasing -Wstrict-aliasing -pthread -I. -I.. -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 ../scratch/hw2.cc -c -o /home/ugrads/k/kwo227/ns3/ns-3.26/build/scratch/hw2.cc.5.o", 
-    "file": "../scratch/hw2.cc"
+    "command": "/usr/bin/g++ -O0 -ggdb -g3 -Wall -Werror -std=c++11 -Wno-error=deprecated-declarations -fstrict-aliasing -Wstrict-aliasing -fPIC -pthread -I. -I.. -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 ../src/lte/model/lte-rrc-header.cc -c -o /home/ugrads/k/kwo227/ns3/ns-3.26/build/src/lte/model/lte-rrc-header.cc.1.o", 
+    "file": "../src/lte/model/lte-rrc-header.cc"
   }, 
   {
     "directory": "/home/ugrads/k/kwo227/ns3/ns-3.26/build", 
@@ -1021,8 +1026,8 @@
   }, 
   {
     "directory": "/home/ugrads/k/kwo227/ns3/ns-3.26/build", 
-    "command": "/usr/bin/g++ -O0 -ggdb -g3 -Wall -Werror -std=c++11 -Wno-error=deprecated-declarations -fstrict-aliasing -Wstrict-aliasing -fPIC -pthread -I. -I.. -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 ../src/wimax/helper/wimax-helper.cc -c -o /home/ugrads/k/kwo227/ns3/ns-3.26/build/src/wimax/helper/wimax-helper.cc.1.o", 
-    "file": "../src/wimax/helper/wimax-helper.cc"
+    "command": "/usr/bin/g++ -O0 -ggdb -g3 -Wall -Werror -std=c++11 -Wno-error=deprecated-declarations -fstrict-aliasing -Wstrict-aliasing -pthread -I. -I.. -DNS3_BUILD_PROFILE_DEBUG -DNS3_ASSERT_ENABLE -DNS3_LOG_ENABLE -DHAVE_SYS_IOCTL_H=1 -DHAVE_IF_NETS_H=1 -DHAVE_NET_ETHERNET_H=1 -DHAVE_PACKET_H=1 -DHAVE_IF_TUN_H=1 ../src/spectrum/examples/tv-trans-regional-example.cc -c -o /home/ugrads/k/kwo227/ns3/ns-3.26/build/src/spectrum/examples/tv-trans-regional-example.cc.5.o", 
+    "file": "../src/spectrum/examples/tv-trans-regional-example.cc"
   }, 
   {
     "directory": "/home/ugrads/k/kwo227/ns3/ns-3.26/build", 
