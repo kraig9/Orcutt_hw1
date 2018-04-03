@@ -101,7 +101,7 @@ main (int argc, char *argv[])
 
   //Create propagation loss matrix
   Ptr<LogNormalPropagationLossModel> lossModel = CreateObject<LogNormalPropagationLossModel> ();
-  lossModel->SetAttribute("Exponent", DoubleValue(2.5));
+  lossModel->SetAttribute("Exponent", DoubleValue(4));
   lossModel->SetAttribute("RandomVariable", StringValue ("ns3::NormalRandomVariable[Mean=0.0|Variance=2.0]"));
   
   //Create & setup wifi channel
@@ -171,18 +171,29 @@ main (int argc, char *argv[])
   //Application
   
   PacketSinkHelper sinkHelper ("ns3::TcpSocketFactory", InetSocketAddress (Ipv4Address::GetAny (), 9));
-  ApplicationContainer sinkApp = sinkHelper.Install (p2pNodes.Get (0));
+  ApplicationContainer sinkApp = sinkHelper.Install (wifiStaNodes.Get(nWifi-1));
   Ptr<PacketSink> sink = StaticCast<PacketSink> (sinkApp.Get (0));
+  Ptr<PacketSink> sink2 = StaticCast<PacketSink> (sinkApp.Get (0));
   
   Ptr<OnOffApplication> server = CreateObject<OnOffApplication> ();
   server->SetAttribute ("Protocol", StringValue ("ns3::TcpSocketFactory"));
-  server->SetAttribute ("Remote", AddressValue (InetSocketAddress (p2pInterfaces.GetAddress (0), 9)));
+  server->SetAttribute ("Remote", AddressValue (InetSocketAddress (wifiInterfaces.GetAddress(nWifi-1), 9)));
   server->SetAttribute ("PacketSize", UintegerValue (payloadSize));
   server->SetAttribute ("OnTime", StringValue ("ns3::ConstantRandomVariable[Constant=1]"));
   server->SetAttribute ("OffTime", StringValue ("ns3::ConstantRandomVariable[Constant=0]"));
   server->SetAttribute ("DataRate", DataRateValue (DataRate (dataRate)));
   Ptr<Node> serverNode = csmaNodes.Get (nCsma);
   serverNode->AddApplication(server);
+  
+  Ptr<OnOffApplication> server2 = CreateObject<OnOffApplication> ();
+  server2->SetAttribute ("Protocol", StringValue ("ns3::TcpSocketFactory"));
+  server2->SetAttribute ("Remote", AddressValue (InetSocketAddress (wifiInterfaces.GetAddress(nWifi-1), 9)));
+  server2->SetAttribute ("PacketSize", UintegerValue (payloadSize));
+  server2->SetAttribute ("OnTime", StringValue ("ns3::ConstantRandomVariable[Constant=1]"));
+  server2->SetAttribute ("OffTime", StringValue ("ns3::ConstantRandomVariable[Constant=0]"));
+  server2->SetAttribute ("DataRate", DataRateValue (DataRate (dataRate)));
+  Ptr<Node> serverNode2 = csmaNodes.Get (nCsma);
+  serverNode2->AddApplication(server2);
   
   sinkApp.Start (Seconds (0.0));
   
